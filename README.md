@@ -60,15 +60,23 @@ Arguments:
 💡 Example
 
     Create a file dorks.txt with queries:
-    Copy
+    
+    inurl:".php?id=" "You have an error in your SQL syntax"
+    inurl:"/product.php?id="
+    inurl:"article.php?id=" "You have an error in your SQL syntax"
+    inurl:"news.php?id="
+    inurl:"item.php?id=" "mysql_fetch"
+    inurl:"view.php?id="
+    inurl:"page.php?id=" "SQL syntax error"
+    inurl:".php?id=" "Warning: mysql_connect()"
+    inurl:".php?id=" "mysql_fetch_array()"
+    inurl:".php?id=" "Warning: mysql_query()"
+    inurl:".php?id=" "database error"
+    inurl:".php?id=" "ODBC SQL Server Driver"
+    inurl:".php?id=" "PostgreSQL query failed"
 
-    inurl:admin/login.php
-    intitle:"index of" "parent directory"
-    filetype:sql intext:"password"
 
     Run the scanner:
-    bash
-    Copy
 
     python dork_scanner.py --dorks dorks.txt --output results.txt
 
