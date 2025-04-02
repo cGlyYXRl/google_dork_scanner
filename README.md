@@ -31,8 +31,6 @@ A powerful tool for performing automated Google Dork searches to find potentiall
     Ensure Python 3.x is installed
 
     Install required package:
-    bash
-    Copy
 
     pip install requests
 
@@ -83,7 +81,6 @@ Arguments:
 📄 Output
 
 Results are saved in the specified output file with the following format:
-Copy
 
 1. Page Title
    http://example.com/path
