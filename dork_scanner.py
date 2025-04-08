@@ -10,9 +10,9 @@ import argparse
 from typing import List, Optional
 
 # Configuration
-API_KEYS = ["AIzaSyD9lm1qSklTSIYA0cgHICIjjklkjklklklk",  # Replace with your keys
-            "AIzaSyBXs7SDTmA2tp2Ee-Nq41klhjhjhjhjhj"]    # Multiple keys for rotation
-CX = "a7ec3ab4254ghjhgh"  # Replace with your Custom Search Engine ID
+API_KEYS = ["your-keys",  # Replace with your keys
+            "your-keys"]    # Multiple keys for rotation
+CX = "Search_Engine_ID"  # Replace with your Custom Search Engine ID
 MAX_RESULTS = 100  # Maximum results per query
 DELAY = 1  # Seconds between requests to avoid rate limiting
 
